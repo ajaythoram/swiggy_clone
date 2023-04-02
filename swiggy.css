@@ -1,0 +1,252 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0;
+}
+.nav_container{
+    position: relative;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 10px 0;
+
+    
+}
+.nav_left{
+   display: flex;
+   justify-content: space-around;
+   
+   gap: 10px;
+
+}
+.nav_right{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    gap: 20px;
+ 
+    align-items: center;
+ }
+ .nav_left > img{
+    width: 80px;
+ }
+ .nav_right > a     {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: #3d4152;
+ }
+ .nav_right>a:hover{
+    color:#f97e22;
+ }
+ .addres{
+    display: flex;
+    align-items: center;
+    gap : 5px;
+    color: #3d4152;
+ }
+ .addres>a{
+     font-weight: bolder;
+      color: black;
+ }
+ .addres .otherlink:hover{
+    color: #f97e22;
+ }
+ .first{
+    
+    display: flex;
+    justify-content :center;
+    background-color: #171a29;
+    gap: 50px;
+    padding: 40px;
+
+
+ }
+ .image{
+    width: 250px;
+    transition: 1s;
+ }
+ .first img{
+   display: block;
+ width: 250px;
+ }
+ .image:hover{
+    transform: scale(1.1);
+    z-index:2 ;
+ }
+ .two{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 0;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.1px solid#e9e9eb;
+ }
+ .links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap :30px;
+ }
+ .links>a{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #80838e;
+ }
+ .links .material-icons{
+    color: #f97e22;
+ }
+ .links a:hover{
+    color: #3a3c41;
+    border-bottom: 1px solid black;
+ }
+ .links .fil:hover{
+    color: #f97e22;
+ }
+ 
+ .cards-container {
+    display: flex;
+    padding: 0 40px;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card {
+    width: 210px;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.card  img {
+    width: 100%;
+}
+.card h3 {
+    margin: 10px 0 ;
+}
+.card > .description {
+    color :#686B78 ;
+    margin: 10px 0;
+    font-size: 14px;
+}
+.rating-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 ;
+    border-bottom: 0.2px solid #686B78;
+    font-size: 14px;
+}
+.rating-container > li  {
+    font-weight: 400;
+    color : #686B78 ;
+}
+.rating-container span {
+    color: white ;
+}
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background-color: #DB7C38;
+    padding:0 4px; 
+    border-radius: 2px;
+}
+
+.rating > .material-icons {
+    font-size: 14px !important ;
+}
+
+.offer-container {
+    color : #8A584B ;
+    display : flex ;
+    align-items: center;
+    gap: 10px;
+}
+
+.card button {
+    visibility: hidden ;
+    
+    display: block;
+    width: 100%; 
+    padding-top: 10px;
+    margin: 10px auto ;
+    background-color: inherit;
+    color: #5d8ed5 ;
+    font-size: 18px;
+    font-weight: bold;
+    border-top: 0.2px solid #686B78  ;
+}
+
+.card:hover {
+    outline: 0.2px solid #686B78 ;
+    background-color: white;
+}
+.card:hover button {
+    visibility: visible;
+}
+
+.badge-container {
+    position: relative ;
+}
+.badge {
+    position: absolute ;
+    background-color: rgb(57, 60, 65);
+    color: white ;
+    padding: 4px 10px;
+    font-size: 14px;
+    left: -10px;
+}
+.badge-container::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    background-color: rgb(57, 60, 65);
+    position: absolute; 
+    left: -10px;
+    height: 25px;
+    top: 5px;
+    transform: skewY(45deg);
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+}
+.footer-item>a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.footer-item>a :hover{
+    color : white;
+}
+footer img{
+    border: 2px solid white;
+    border-radius: 10px;
+    transform: 1s;
+}
+.foot_img{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 50px;
+}
+.foot_img>img:hover{
+     transform: scale(1.1);
+     z-index: 2;
+}
+footer h3{
+    color: #808080;
+}
+ 
+ 
+ 
+ 
